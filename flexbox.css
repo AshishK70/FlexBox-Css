@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dfdfdf;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+.one,
+.two,
+.three{
+    background-color: #c19191;
+}
+/* ////////////////basic flex properties ///////////// */
+.goal{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.goal ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+}
+/* //////////////// flex direction properties ///////////// */
